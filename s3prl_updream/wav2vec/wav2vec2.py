@@ -7,13 +7,10 @@
 """*********************************************************************************************"""
 
 
-import argparse
-from typing import List
 from packaging import version
 
 import torch
 import fairseq
-import numpy as np
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pad_sequence
 
@@ -65,7 +62,7 @@ class UpstreamExpert(UpstreamBase):
         )
         padded_wav = pad_sequence(wavs, batch_first=True)
 
-        results = self.model.extract_features(
+        self.model.extract_features(
             padded_wav, wav_padding_mask if self.apply_padding_mask else None
         )
 

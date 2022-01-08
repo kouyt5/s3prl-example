@@ -2,7 +2,6 @@ import sys
 from typing import Callable, List, Dict, Tuple, Union
 
 import torch
-import numpy as np
 import torch.nn as nn
 from torch import Tensor
 import torch.nn.functional as F
