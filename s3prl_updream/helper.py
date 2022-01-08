@@ -12,7 +12,6 @@
 ###############
 import os
 import sys
-import math
 import torch
 import shutil
 import builtins
@@ -23,7 +22,7 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.distributed import is_initialized, get_rank, get_world_size
+from torch.distributed import is_initialized, get_rank
 
 def is_leader_process():
     return not is_initialized() or get_rank() == 0

@@ -3,8 +3,6 @@ import torch
 import os
 from s3prl_updream.interfaces import Featurizer
 from s3prl_updream.wav2vec.wav2vec2 import UpstreamExpert
-from tqdm import tqdm
-import json
 import soundfile as sf
 import pickle
 
