@@ -1,5 +1,9 @@
 # s3prl-example
 
+<a href="./LICENSE.txt"><img alt="GitHub" src="https://img.shields.io/github/license/kouyt5/rabbit-rpc-client"></a>
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/kouyt5/s3prl-example.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kouyt5/s3prl-example/context:python)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/kouyt5/s3prl-example.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kouyt5/s3prl-example/alerts/)
+
 基于 [s3prl](https://github.com/s3prl/s3prl) 的自监督特征提取
 
 ## Q&A
